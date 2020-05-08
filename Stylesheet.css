@@ -1,0 +1,156 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    float: left;
+    width: 100%;
+    min-width: 300px;
+    /* background-color: #f7f8faef; */
+    color: #316DC3;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    line-height: 1.42857143;
+    font-size: 2rem
+}
+
+/*Extra CSS for navigation item */
+#nav-li {
+    font-weight: 400;
+    margin: 5px 1px 0px 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+#nav-li:hover {
+    background-color: #316DC3;
+    color: white;
+    padding: 7px;
+}
+
+.nav-link,
+a {
+    color: black;
+}
+
+/*Extra CSS for navigation Dropdown */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: .3s;
+    transition-timing-function: linear;
+}
+
+.dropdown-item:hover {
+    background-color: #316DC3;
+    color: white;
+    padding-left: 2px;
+}
+
+.marq {
+    width: 80%;
+    margin: 0px auto;
+    background-color: #316DC3;
+    font-weight: bold;
+    font-size: 15px;
+    color: lightgreen;
+    font-family: sans-serif;
+}
+
+/* heading bottom border */
+.bt {
+    border-top: 2px solid green;
+    float: left;
+    width: 50px;
+}
+
+/* container back grounf color */
+.bg_col {
+    background-color: #2755E9;
+}
+
+/* Create four equal columns that floats next to each other */
+.Sub_Con_style {
+    color: white;
+    /* min-width: 250px; */
+    height: 250px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Gallaery */
+.glry_dsgn {
+    background-color: white;
+    color: #2755E9;
+    text-align: center;
+    padding-top: 30px;
+    height: 200px;
+    box-shadow: 0 0 10px 5px lightgrey;
+}
+
+/* project Gallery CSS */
+.Prj_glry {
+    display: flex;
+    background-color: #F7F8FA;
+    padding: 20px 10px 10px 10px;
+    border: 1px solid rgba(231, 235, 240, 0.973);
+    height: 70px;
+    margin: 10px;
+}
+
+#white_container {
+    width: 100%;
+    height: 700px;
+    background-color: white;
+}
+
+/* footer CSS */
+#footer {
+    height: 100%;
+    width: 100%;
+    min-width: 300px;
+    float: left;
+    background-color: #25272E;
+    color: white;
+    padding: 50px;
+
+}
+
+/* Social media icons CSS */
+#soc_icon {
+    padding: 10px 15px;
+    /* background-color: #316DC3; */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .5s;
+    transition-timing-function: linear;
+}
+
+#soc_icon:hover {
+    /* background-color: #316DC3; */
+    background-color: #2A7BED;
+}
+
+/* CSS for Copy write bar  */
+#Copy_r {
+    height: 50px;
+    background-color: #0474dd;
+    width: 100%;
+    color: white;
+    float: left;
+    padding: 10px;
+
+}
